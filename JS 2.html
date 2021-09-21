@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <h2> Filter </h2>
+    <script>
+        var ages = [10, 15, 25, 30, 35, 40, 46];
+        document.write(ages + '<br> <br>');
+
+        var b = ages.filter(checkAdult);
+        document.write(b + '<br> <br>');
+
+        function checkAdult(age) {
+            return age >= 18;
+        }
+    </script>
+
+    <h2> forEach </h2>
+
+    <script>
+        var a = ['Dell', 'Delloit', 'Lenovo', 'Asus'];
+
+        a.forEach(function (value, index) {
+            document.write(index + ':' + value + '<br>')
+
+        });
+    </script>
+
+    <h2> If-Statement </h2>
+
+    <script>
+        var a = 100;
+        var b = '20';
+
+        if (a > b) {
+            document.write('A is Greater');
+
+        }
+    </script>
+
+    <h2> Comparision Operator </h2>
+
+    <script>
+
+        var day = 4;
+
+        switch (day) {
+            case 0:
+                document.write('Today Is Monday')
+                break;
+            case 1:
+                document.write('Today Is Tuesday')
+                break;
+            case 2:
+                document.write('Today Is Wednesday')
+                break;
+            case 3:
+                document.write('Today Is Thursday')
+                break;
+            case 4:
+                document.write('Today Is Friday')
+                break;
+            case 5:
+                document.write('Today Is Saturday')
+                break;
+            case 5:
+                document.write('Today Is Sunday')
+                break;
+            default: document.write('Enter The Valid Date');
+        }
+
+    </script>
+
+    <h2> Alert Box </h2>
+
+
+    <script>
+      
+        // alert('Hello! Welcome to my Alert Box.')
+
+    </Script>
+
+    <h2> Confirm Box </h2>
+    <p> It's just like a alert box but asks a question to answer with Yes or No. </p>
+
+    <script>
+
+        // var a = confirm('Do you like our Confirm Box')
+        // if (a) {
+        //     alert('Thank you');
+        // } else {
+        //     alert('Sorry');
+        // }
+
+    </Script>
+
+    <h2> Prompt Box </h2>
+    <script>
+    
+        // var a = prompt('What is your Name?');
+
+        // document.write(a); 
+        
+        
+
+    </script>
+
+    <h2> Functions </h2>
+    <Script>
+    function Abeed(){
+        document.write('Hello Abeed');
+    }
+
+    function hello(){
+        document.write('Hello Everyone');
+    }
+
+    function Bye(){
+        document.write('Okay, Bye.');
+    }
+
+    Abeed();
+
+    document.write('<br>');
+    hello();
+
+    document.write('<br>');
+    Bye();
+
+    </Script>
+
+
+
+
+</head>
+
+<body>
+</body>
+
+</html>

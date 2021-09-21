@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <h2> Slice </h2>
+
+    <script>
+
+        var a = [' India', ' America', ' Canada', ' Australia', ' Dubai'];
+        document.write(a + '<br> <br>');
+
+        var b = a.slice(1, 4);
+        document.write(b + '<br> <br>');
+
+        var c = a.slice(-3, -1);
+        document.write(c + '<br> <br>');
+
+    </script>
+
+    <h2> Splice </h2>
+
+    <Script>
+        var a = ['Hindi', ' English', ' French'];
+        document.write(a + '<br> <br>');
+
+        a.splice(3, 0, ' Spanish', ' Arabic')
+        document.write(a + '<br> <br>');
+
+        a.splice(1, 2, ' Chinese', ' Dutch')
+        document.write(a + '<br> <br>');
+    </script>
+
+
+    <h2> Find </h2>
+
+    <Script>
+        var ages = [15, 25, 35, 40];
+        document.write(ages + '<br> <br>');
+
+        var b = ages.find(checkAdult);
+        document.write(b + '<br> <br>');
+
+        function checkAdult(age) {
+            return age >= 18;
+        }
+
+    </Script>
+
+</script>
+
+<h2> Pop </h2>
+
+<Script>
+    var a = [' Adam', ' Aron', ' Alen', ' Alex', 'Daniel'];
+        document.write(a + '<br> <br>');
+
+        a.pop();
+        document.write(a + '<br> <br>');
+</script>
+
+
+<h2> Push </h2>
+
+<Script>
+    var a = [' Adam', ' Aron', ' Alen', ' Alex'];
+        document.write(a + '<br> <br>');
+
+        a.push(' Daniel');
+        document.write(a + '<br> <br>');
+</Script>
+
+<h2> IndexOf & lastIndexOf </h2>
+
+<Script>
+    var a = [' Adam', ' Aron', ' Alen', ' Alex', ' Daniel', ' Aron', ' Shane', ' Aron', ' Mark', ' Steve' ];
+        document.write(a + '<br> <br>');
+
+        var b = a.indexOf(' Aron', 2);
+        document.write(b + '<br> <br>');
+
+        var c = a.lastIndexOf(' Aron');
+        document.write(c + '<br> <br>');
+
+</script>
+
+<body>
+
+</body>
+
+</head>
+
+</html>
